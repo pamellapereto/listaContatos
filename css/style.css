@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.agenda {
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.containerLastname {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contato {
+    flex: 1;
+}
+
+.imgIco {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.comboBox {
+    width: 100%;
+    padding-left: 0.5rem;
+}
+
+.btnSalvarCancelar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btnCancelar,
+.btnSalvar {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btnCancelar {
+    margin-right: 1rem;
+    background-color: #ccc;
+}
+
+.btnSalvar {
+    background-color: #1154e4;
+    color: #fff;
+}
+
+.lista {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#pesquisa {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
